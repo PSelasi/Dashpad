@@ -2,38 +2,6 @@
 
 A lightweight, mobile-first dashboard for small business owners to manage products, sales, customers, and expenses.
 
-## Project Structure
-
-```
-dashpad/
-├── src/
-│   ├── components/
-│   │   ├── ui/                    # Reusable UI components
-│   │   │   ├── Avatar.jsx         # User avatar with initials
-│   │   │   ├── Badge.jsx          # Status badge (paid/partial/unpaid)
-│   │   │   ├── Sparkline.jsx      # Mini 7-day chart
-│   │   │   └── StockBadge.jsx     # Stock status indicator
-│   │   ├── Dashboard.jsx          # Main dashboard view with metrics
-│   │   ├── Products.jsx           # Product inventory management
-│   │   ├── Sales.jsx              # Sales records and tracking
-│   │   ├── Customers.jsx          # Customer management
-│   │   ├── Reports.jsx            # P&L and business analytics
-│   │   └── Modal.jsx              # Universal modal for forms
-│   ├── data/
-│   │   ├── constants.js           # App categories and tab definitions
-│   │   └── initialData.js         # Sample data
-│   ├── utils/
-│   │   └── formatters.js          # Date and currency formatting utilities
-│   ├── styles/
-│   │   └── index.css              # Global styles
-│   ├── App.jsx                    # Main app component
-│   └── index.jsx                  # React entry point
-├── index.html                     # HTML entry point
-├── package.json                   # Dependencies
-├── vite.config.js                 # Vite configuration
-└── .gitignore
-```
-
 ## Features
 
 - **Dashboard**: Overview of daily/weekly/monthly sales, inventory value, and profit metrics
